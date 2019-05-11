@@ -1,9 +1,11 @@
 # qdata4kipoi
 
-Sanity Checks for Saliency Maps
+## Sanity Checker: Evaluations for Deep Neural Network Interpretability Tools 
 
-Significant work has been done on interpretability in machine learning, but there is little agreement on how to measure the effectiveness of interpretability tools and evaluate them for benchmarking. We present Sanity Checker, a Python library as a novel solution to allow researchers to easily conduct evaluations on state-of-the-art interpretability tools. 
+**What:** A Python library as a novel solution to allow researchers to easily conduct evaluations on state-of-the-art interpretability tools. This library currently provides support for Keras and includes an example MNIST model run in the _example_ folder. Our library follows a simple structure: we combine an explanation, a sanity check method, and a similarity metric to make an informed evaluation. 
 
-This library currently provides support for Keras. An example MNIST model run is provided in the examples folder.
+**Why:** Significant work has been done on interpretability in machine learning, but there is little agreement on how to measure the effectiveness of interpretability tools and evaluate them for benchmarking.
 
-The central idea in evaluating how “meaningful” a given explanation is revolves around observing how the explanation changes with respect to a change in the model or a change in the data the model was trained on. Our library follows a simple structure: we combine an explanation, a sanity check method, and a similarity metric to make an informed evaluation.
+**How:** The central idea in evaluating how “meaningful” a given explanation is revolves around observing how the explanation changes with respect to a change in the model or a change in the data the model was trained on. If we make many changes to the weights of the model and the resulting explanation does not change as much, we can be sure that the explanation is not fit for tasks depending on model weights such as debugging the output class.
+
+**Presentation Slides**: https://docs.google.com/presentation/d/116IU7noWCZDsb6I8BxPJ4GvFPRGWlrJOiZ1gaMG7sO0/edit?usp=sharing
