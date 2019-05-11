@@ -1,6 +1,4 @@
-# qdata4kipoi
-
-## Sanity Checker: Evaluations for Deep Neural Network Interpretability Tools 
+# Sanity Checker: Evaluations for Deep Neural Network Interpretability Tools 
 
 **What:** A Python library as a novel solution to allow researchers to easily conduct evaluations on state-of-the-art interpretability tools. This library currently provides support for Keras and includes an example MNIST model run in the _example_ folder. Our library follows a simple structure: we combine an explanation, a sanity check method, and a similarity metric to make an informed evaluation. 
 
