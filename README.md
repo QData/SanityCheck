@@ -6,6 +6,6 @@
 
 **How:** The central idea in evaluating how “meaningful” a given explanation is revolves around observing how the explanation changes with respect to a change in the model or a change in the data the model was trained on. If we make many changes to the weights of the model and the resulting explanation does not change as much, we can be sure that the explanation is not fit for tasks depending on model weights such as debugging the output class.
 
-**Presentation Video:** https://youtu.be/5rZddtGaq-k
+[**Presentation Video**](https://youtu.be/5rZddtGaq-k)
 
-**Presentation Slides:** https://docs.google.com/presentation/d/116IU7noWCZDsb6I8BxPJ4GvFPRGWlrJOiZ1gaMG7sO0/edit?usp=sharing
+[**Presentation Slides**](https://docs.google.com/presentation/d/116IU7noWCZDsb6I8BxPJ4GvFPRGWlrJOiZ1gaMG7sO0/edit?usp=sharing)
